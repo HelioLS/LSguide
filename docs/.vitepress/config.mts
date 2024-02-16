@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+
   base: '/lsguide/',
   title: "Localization Best Practices Guide",
   description: "Presented by the IGDA Localization SIG",
@@ -11,7 +12,6 @@ export default defineConfig({
       { text: 'Home', link: '/' },
       { text: 'Examples', link: '/markdown-examples' }
     ],
-
     sidebar: [
       {
         text: 'Examples',
@@ -21,7 +21,6 @@ export default defineConfig({
         ]
       }
     ],
-
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
     ]
