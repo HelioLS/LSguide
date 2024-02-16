@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
 
-  base: '/lsguide/',
+  base: '/LSguide/',
   title: "Localization Best Practices Guide",
   description: "Presented by the IGDA Localization SIG",
   themeConfig: {
