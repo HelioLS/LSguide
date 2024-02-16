@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default {
-  base: '/base/'
+  base: '/lsguide/'
 }
 export default defineConfig({
   title: "Localization Best Practices Guide",
